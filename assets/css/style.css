@@ -102,9 +102,11 @@ button a {
 
 /* ================================= about section end  =================================== */
 
+
+/* ================================= service section start  =================================== */
 .service_part {
     font-family: var(--openSans);
-
+    margin-bottom: 100px;
 }
 .top_head h1 {
     font-size: 40px;
@@ -136,4 +138,9 @@ button a {
     letter-spacing: 0px;
     color: #555555;
     font-weight: 400;
+}
+/* ================================= service section end  =================================== */
+
+.portfolio_part {
+    font-family: var(--openSans);
 }
