@@ -151,20 +151,15 @@ button a {
 /* ================================= portfolio section end  =================================== */
 
 
+/* ================================= count section start  =================================== */
 .countArea {
     background-image: url(/assets/image/04-VEER\ bg\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 25vh; */
     font-family: var(--poppins);
     padding: 30px 0px;
-}
-.countable {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+    margin-bottom: 100px;
 }
 .countBox {
     width: 300px;
@@ -172,6 +167,7 @@ button a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
     /* gap: 20px; */
 }
 .countBox i {
@@ -196,4 +192,33 @@ button a {
     color: #d4d4d4;
     font-weight: 500;
     text-align: center;
+}
+/* ================================= count section end  =================================== */
+
+.blog {
+    padding-bottom: 100px;
+}
+.blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blogTitle {
+    font-family: var(--poppins);
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.pra {
+font-size: 18px;
+color: #666666;
+font-weight: 400;
+font-family: var(--openSans);
+}
+.blogBtn{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #555555;
+    font-family: var(--poppins);
 }
