@@ -11,7 +11,6 @@ font-family: 'Poppins', sans-serif; */
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 ul,
@@ -30,8 +29,41 @@ html {
 .header_menu ul li a {
     font-size: 16px;
     font-family: var(--poppins);
-    font-weight: 700px;
+    font-weight: 700;
     color: #0e1424;
     text-transform: uppercase;
     /* font-weight: bold; */
 }
+
+/* ================================= hero section start  =================================== */
+.hero_part {
+    background-image: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-bottom: 100px; */
+}
+.hero_content h1 {
+    font-size: 70px;
+    color: #31d7ce;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+}
+.hero_content a {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+    color: #31d7ce;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* ================================= hero section end  =================================== */
+
+
