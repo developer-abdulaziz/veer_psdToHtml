@@ -6,4 +6,12 @@
        justify-content: center;
     }
 
+    .connect_part {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
 }

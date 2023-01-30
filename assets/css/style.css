@@ -255,3 +255,51 @@ button a {
 }
 /* ================================= connect section end  =================================== */
 
+
+/* ================================= footer section start  =================================== */
+footer {
+    padding: 60px 0px;
+    color: white;
+    background: #000415;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_location, .phone_location {
+    display: flex;
+    gap: 10px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: var(--openSans);
+}
+.title {
+    /* border-right: 1px solid #393939; */
+    padding: 30px;
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: var(--poppins);
+}
+.title::after {
+    content: "";
+    position: absolute;
+    border-right: 1px solid #393939;
+    width: 10px;
+    height: 180px;
+    top: -30px;
+    right: -20px;
+}
+/* ================================= footer section end  =================================== */
+
