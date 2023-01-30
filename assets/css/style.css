@@ -258,9 +258,14 @@ button a {
 
 /* ================================= footer section start  =================================== */
 footer {
-    padding: 60px 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     color: white;
     background: #000415;
+    text-align: center;
+}
+.footer_body {
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -300,6 +305,14 @@ footer {
     height: 180px;
     top: -30px;
     right: -20px;
+}
+.copyright {
+font-size: 15px;
+color: #818181;
+font-weight: 400;
+font-family: var(--openSans);
+text-align: center;
+padding-top: 40px;
 }
 /* ================================= footer section end  =================================== */
 
